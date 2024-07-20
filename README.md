@@ -1,8 +1,9 @@
-Tic-Tac-Toe game using HTML, CSS, and JavaScript.
+Simple implementation that includes features for starting, stopping, resetting, and tracking lap timeS in a stopwatch using HTML, CSS and Java Script.
 HTML:
-Defines the structure of the game board and the new game button.
+Defines the structure of the stopwatch, including display, control buttons, and a list to show lap times.
 CSS:
-Styles the game board, cells, and text to make it visually appealing.
+Styles the stopwatch and its elements to make it look clean and centered on the page.
 JavaScript:
-Manages the game logic, including handling player moves, checking for a win or tie, and restarting the game.
-When you open index.html in your browser, you'll see a Tic-Tac-Toe game that you can play. Clicking on a cell will mark it with 'X' or 'O' based on the current player, and the game will display a message when someone wins or if there's a tie. The new game button restarts the game.
+Manages the stopwatch functionality including starting, stopping, resetting, and recording lap times.
+Uses setInterval to update the display every millisecond.
+lapTimer records the lap time and displays it in a list format.
